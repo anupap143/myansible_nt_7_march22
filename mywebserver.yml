@@ -1,0 +1,6 @@
+---
+takes:
+- name: i want to install ansible on ubuntu nodes
+apt:
+name: apache2
+state: present
